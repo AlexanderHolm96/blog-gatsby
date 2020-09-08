@@ -30,6 +30,7 @@ module.exports = {
     },
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
+    `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-plugin-mdx`,
       options: {
@@ -50,7 +51,6 @@ module.exports = {
         fonts: [`roboto mono`, `muli\:400,400i,700,700i`],
         display: "swap",
       },
-    }
+    },
   ],
 }
-
