@@ -1,5 +1,16 @@
-import React from "react"
+import React from 'react'
+import { Container, FeatureImage } from "../components"
+import * as styles from "../elements"
+import { Content } from '../components/Content'
 
-export default function Home() {
-  return <div>Ad astra</div>
+
+const index = () => {
+  return (
+    <Container>
+      <FeatureImage/>
+      <Content/>
+    </Container>
+  )
 }
+
+export default index
